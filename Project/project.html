@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perubahan Iklim</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+3:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        font-size: 18px;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Source Sans 3", sans-serif;
+        background: #f5f0eb;
+        color: #2c2c2c;
+        font-size: 1rem;
+      }
+
+      .menu-atas {
+        background: #2c4a3e;
+        padding: 16px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+
+      .nama-web {
+        color: #d4e8c2;
+        font-family: "Merriweather", serif;
+        font-size: 1rem;
+        text-decoration: none;
+      }
+
+      .daftar-menu a {
+        color: rgba(255, 255, 255, 0.75);
+        text-decoration: none;
+        margin-left: 28px;
+        font-size: 0.9rem;
+      }
+
+      .daftar-menu a:hover {
+        color: #d4e8c2;
+      }
+
+      .bagian-atas {
+        background: #2c4a3e;
+        color: #f0ebe3;
+        padding: 80px 80px 70px;
+        border-bottom: 4px solid #7ab648;
+      }
+
+      .label-artikel {
+        font-size: 0.72rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #7ab648;
+        margin-bottom: 16px;
+      }
+
+      .bagian-atas h1 {
+        font-family: "Merriweather", serif;
+        font-size: 2.6rem;
+        font-weight: 700;
+        line-height: 1.25;
+        max-width: 700px;
+        margin-bottom: 20px;
+        color: #e8f5d8;
+      }
+
+      .kalimat-pembuka {
+        font-size: 1rem;
+        color: rgba(240, 235, 227, 0.75);
+        max-width: 560px;
+        line-height: 1.8;
+        margin-bottom: 30px;
+      }
+
+      .tombol-baca {
+        display: inline-block;
+        border: 1.5px solid #7ab648;
+        color: #7ab648;
+        padding: 10px 26px;
+        font-size: 0.88rem;
+        text-decoration: none;
+        border-radius: 4px;
+      }
+
+      .tombol-baca:hover {
+        background: #7ab648;
+        color: #2c4a3e;
+      }
+
+      .isi-konten {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 60px 40px 70px;
+      }
+
+      .blok-materi {
+        margin-bottom: 50px;
+      }
+
+      .blok-materi h2 {
+        font-family: "Merriweather", serif;
+        font-size: 1.2rem;
+        color: #2c4a3e;
+        margin-bottom: 14px;
+        padding-left: 14px;
+        border-left: 3px solid #7ab648;
+      }
+
+      .blok-materi p {
+        font-size: 1rem;
+        line-height: 1.9;
+        color: #3d3d3d;
+      }
+
+      .tentang-penulis {
+        border-top: 1px solid #ccc;
+        padding-top: 32px;
+        margin-top: 10px;
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+      }
+
+      .foto-inisial {
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        background: #2c4a3e;
+        color: #d4e8c2;
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      .data-penulis p {
+        font-size: 0.9rem;
+        color: #555;
+        line-height: 1.75;
+      }
+
+      .data-penulis strong {
+        display: block;
+        font-size: 1rem;
+        color: #2c2c2c;
+        margin-bottom: 4px;
+      }
+
+      .catatan-bawah {
+        text-align: center;
+        padding: 28px;
+        font-size: 0.8rem;
+        color: #888;
+        border-top: 1px solid #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu-atas">
+      <a class="nama-web" href="#">Perubahan Iklim</a>
+      <div class="daftar-menu">
+        <a href="#pengertian">Pengertian</a>
+        <a href="#sejarah">Sejarah</a>
+        <a href="#penanganan">Penanganan</a>
+        <a href="#dampak">Dampak</a>
+      </div>
+    </div>
+
+    <div class="bagian-atas">
+      <div class="label-artikel">Artikel · Lingkungan Hidup</div>
+      <h1>Perubahan Iklim, Masalah Kita Bersama</h1>
+      <p class="kalimat-pembuka">
+        Bumi kita sudah mulai mengirimkan sinyal-sinyal darurat. Sudah saatnya
+        kita pahami apa yang sebenarnya terjadi.
+      </p>
+      <a class="tombol-baca" href="#pengertian">Mulai Baca</a>
+    </div>
+
+    <div class="isi-konten">
+      <div class="blok-materi" id="pengertian">
+        <h2>Apa Itu Perubahan Iklim?</h2>
+        <p>
+          Sederhananya, perubahan iklim adalah perubahan besar pada cuaca dan
+          suhu bumi dalam jangka waktu yang panjang. Dulu memang bumi pernah
+          mengalami perubahan iklim secara alami, tapi yang terjadi sekarang
+          jauh lebih cepat — dan sebagian besar dipicu oleh aktivitas kita
+          sendiri, mulai dari pembakaran bahan bakar fosil sampai penebangan
+          hutan besar-besaran.
+        </p>
+      </div>
+
+      <div class="blok-materi" id="sejarah">
+        <h2>Kapan Ini Mulai Jadi Perhatian?</h2>
+        <p>
+          Ilmuwan sudah mulai curiga sejak abad ke-19. Svante Arrhenius, ilmuwan
+          Swedia, sudah menghitung dampak CO₂ terhadap suhu bumi waktu itu. Tapi
+          baru di tahun 1988 dunia mulai serius — PBB membentuk IPCC untuk
+          mengkaji risiko perubahan iklim secara global. Puncaknya, Perjanjian
+          Paris 2015 di mana hampir 200 negara sepakat menjaga kenaikan suhu di
+          bawah 1,5°C.
+        </p>
+      </div>
+
+      <div class="blok-materi" id="penanganan">
+        <h2>Apa yang Bisa Kita Lakukan?</h2>
+        <p>
+          Banyak sebenarnya. Di skala besar, ada transisi ke energi surya dan
+          angin, reboisasi, sampai kebijakan emisi karbon. Di skala kita sendiri
+          pun bisa: naik transportasi umum, kurangi plastik sekali pakai, dan
+          lebih sadar dalam memilih makanan. Hal-hal kecil itu kalau dilakukan
+          bareng-bareng dampaknya nyata.
+        </p>
+      </div>
+
+      <div class="blok-materi" id="dampak">
+        <h2>Dampaknya Sudah Terasa</h2>
+        <p>
+          Banjir makin sering, musim kemarau makin panjang, dan permukaan laut
+          terus naik. Di Indonesia sendiri, banyak petani yang mulai bingung
+          karena musim tanam sudah tidak bisa diprediksi seperti dulu. Terumbu
+          karang kita juga memutih. Ini bukan cerita masa depan — ini sudah
+          terjadi sekarang.
+        </p>
+      </div>
+
+      <div class="tentang-penulis">
+        <div class="foto-inisial">R</div>
+        <div class="data-penulis">
+          <strong>Wildan Julian</strong>
+          <p>
+            Tinggal di Cianjur, suka nulis dan peduli sama isu lingkungan.
+            Artikel ini ditulis sebagai bagian dari upaya kecil untuk
+            menyebarkan kesadaran.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="catatan-bawah">
+      © 2026 — Perubahan Iklim. Dibuat dengan kepedulian.
+    </div>
+  </body>
+</html>
